@@ -1,3 +1,6 @@
 body {
-	background-image: url(homebck.jpg); 
+	background-image:  url(homebck.jpg); 
+	background-size:   cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
