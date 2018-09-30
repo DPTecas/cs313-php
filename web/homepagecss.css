@@ -21,11 +21,11 @@ body {
 }
 
 #info{
-	position: relative; top: 50%; left: 55%;
+	position: relative; bottom: 50%; left: 55%;
 }
 
 #assign{
-	text-align: center;
+	position: relative; top: 25%; left: 25%;
 }
 
 #tank {
