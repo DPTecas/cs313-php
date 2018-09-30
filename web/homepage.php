@@ -31,7 +31,13 @@
     </div>
     <script src="homejs.js"></script>
 
-   
+    <div id = "info">
+    	Personal Information<br>
+    	Major: Computer Science<br>
+    	GPA: 3.9+<br>
+    	Married 2.5 Years<br>
+    	Hometown: La Mesa, CA<br>
+    </div>
 
     <a href="https://quiet-temple-53214.herokuapp.com/assignments.php" id = "assign" >Assignments</a>
 </body>
