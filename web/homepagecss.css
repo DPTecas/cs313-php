@@ -13,7 +13,19 @@ body {
 }
 
 #hobbies{
-	position: relative; top: 50%; left: 40%;
+	position: relative; top: 50%; left: 35%;
+}
+
+#models{
+	position: relative; top: 50%; left: 35%;
+}
+
+#info{
+	position: relative; top: 50%; left: 55%;
+}
+
+#assign{
+	text-align: center;
 }
 
 #tank {
@@ -30,8 +42,8 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    width: 5%;
-    height: 5%;
+    width: 4%;
+    height: 4%;
 }
 
 #r2d2:hover {opacity: 0.7;}

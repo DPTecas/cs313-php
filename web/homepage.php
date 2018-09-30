@@ -11,14 +11,14 @@
 	<div id = "hobbies">Hobbies Include - 
 		<ul>
 			<?php 
-				$hobbies = array("Model Building", "Guitar", "Gaming", "Ping Pong, Basketball");
+				$hobbies = array("Model Building", "Guitar", "Gaming", "Ping Pong", "Basketball");
 				foreach ($hobbies as $val){
 						echo "<li>" . $val . "<br>";
 						}?>
 		</ul>
 	</div>
 
-	<div id = "models">Some Models I've Built
+	<div id = "models">Some Models I've Built<br>
 		<img id = "tank" src="MEPics/tank.png" alt="Tiger I">
 		<img id = "r2d2" src="MEPics/r2d2.png" alt="R2-D2">
 		<img id = "pearl" src="MEPics/pearl.png" alt="Black Pearl">
@@ -30,5 +30,15 @@
     <div id="caption"></div>
     </div>
     <script src="homejs.js"></script>
+
+    <div id = "info">
+    	Personal Information<br>
+    	Major: Computer Science<br>
+    	GPA: 3.9+
+    	Married 2.5 Years<br>
+    	Hometown: La Mesa, CA<br>
+    </div>
+
+    <a id = "assign" href="https://quiet-temple-53214.herokuapp.com/assignments.php">Assignments</a>
 </body>
 </html>
