@@ -20,9 +20,31 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    width: 50%;
+    height: 50%;
 }
 
 #tank:hover {opacity: 0.7;}
+
+#r2d2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 50%;
+    height: 50%;
+}
+
+#r2d2:hover {opacity: 0.7;}
+
+#pearl {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 50%;
+    height: 50%;
+}
+
+#pearl:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {

@@ -19,9 +19,9 @@
 	</div>
 
 	<div id = "models">Some Models I've Built
-		<img id = "tank" src="MEPics/tank.png" alt="ME">
-		<img src="MEPics/r2d2.png" alt="ME">
-		<img src="MEPics/pearl.png" alt="ME">
+		<img id = "tank" src="MEPics/tank.png" alt="Tiger I">
+		<img id = "r2d2" src="MEPics/r2d2.png" alt="R2-D2">
+		<img id = "bpearl" src="MEPics/pearl.png" alt="Black Pearl">
 	</div>
 
 	<div id="myModal" class="modal">
