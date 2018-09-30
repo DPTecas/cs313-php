@@ -9,7 +9,7 @@
 	<p id = "class">Web Engineering II</p><br>
 
 	<div>Hobbies Include - 
-		<ul>
+		<ul id = "hobbies">
 			<?php 
 				$hobbies = array("Model Building", "Guitar", "Gaming", "Ping Pong");
 				foreach ($hobbies as $val){
