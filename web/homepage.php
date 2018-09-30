@@ -5,11 +5,11 @@
 	<title>Home Page CS313</title>
 </head>
 <body>
-	<p id = "name">Will Mildenhall</p><br>
+	<p id = "name">Will Mildenhall</p>
 	<p id = "class">Web Engineering II</p><br>
 
-	<div>Hobbies Include - 
-		<ul id = "hobbies">
+	<div id = "hobbies">Hobbies Include - 
+		<ul>
 			<?php 
 				$hobbies = array("Model Building", "Guitar", "Gaming", "Ping Pong");
 				foreach ($hobbies as $val){
