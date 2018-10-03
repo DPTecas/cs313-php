@@ -9,19 +9,13 @@
 
 	$name = $email = $gender = $comment = "";
 
-	if ($_SERVER["REQUEST_METHOD"] == "POST") {
- 	  $name = test_input($_POST["name"]);
- 	  $email = test_input($_POST["email"]);
-  	  $comment = test_input($_POST["comment"]);
- 	  $major = test_input($_POST["major"]);
- 	}
 
- 	function test_input($data) {
-  	  $data = trim($data);
-  	  $data = stripslashes($data);
-  	  $data = htmlspecialchars($data);
-  	  return $data;
-  	}
+ 	 $name = $_POST["name"];
+ 	 $email = $_POST["email"];
+  	 $comment = $_POST["comment"];
+ 	 $major = $_POST["major"];
+ 	
+
   	echo "Name: " . $name;
   	echo "Email: " . $email;
   	echo "Major: " . $major;
