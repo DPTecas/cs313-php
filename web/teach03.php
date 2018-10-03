@@ -14,18 +14,19 @@
  	  $email = test_input($_POST["email"]);
   	  $comment = test_input($_POST["comment"]);
  	  $major = test_input($_POST["major"]);
+ 	}
 
  	function test_input($data) {
   	  $data = trim($data);
   	  $data = stripslashes($data);
   	  $data = htmlspecialchars($data);
   	  return $data;
-
+  	}
   	echo "Name: " . $name;
   	echo "Email: " . $email;
   	echo "Major: " . $major;
   	echo "Comment: " . $comment;
-}
+
 	?>
 </body>
 </html>
