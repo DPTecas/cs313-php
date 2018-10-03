@@ -4,7 +4,7 @@
 	<title>teach 03</title>
 </head>
 <body>
-	<form action="teach03.php" method="post">
+	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 	Name: <input type="text" name="name"><br>
 	E-mail: <input type="text" name="email"><br>
 	<input type="submit"></form>

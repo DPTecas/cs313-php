@@ -5,7 +5,7 @@
 </head>
 <body>
 	<?php
-	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+	
 
 	$name = $email = $gender = $comment = "";
 
