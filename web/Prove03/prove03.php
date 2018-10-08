@@ -19,7 +19,7 @@
     <?php
     	$_SESSION["cart1"] = 0;
     	
-    	if (isset($_POST['item1'])){
+    	if ($_POST['item1'])){
     		$_SESSION["cart1"] += 1;
     	}
     	
