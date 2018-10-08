@@ -5,7 +5,7 @@
 </head>
 <body>
 	<?php
-	echo $_SESSION['item1'];
+	echo $_SESSION["cart1"];
 	?>
 </body>
 </html>
