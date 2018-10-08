@@ -43,24 +43,29 @@
     	</form>
     </div>
     <?php
+    	$_SESSION['totalPrice'] = ((isset($_SESSION['totalPrice'])) ? $_SESSION['totalPrice'] : 0);
     	$_SESSION['cart1'] = ((isset($_SESSION['cart1'])) ? $_SESSION['cart1'] : 0);
     	if (isset($_GET["item1"])){
     		++$_SESSION['cart1'];
+    		$_SESSION['totalPrice'] += ($_SESSION['cart1'] * 30.00);
     	}
 
     	$_SESSION['cart2'] = ((isset($_SESSION['cart2'])) ? $_SESSION['cart2'] : 0);
     	if (isset($_GET["item2"])){
     		++$_SESSION['cart2'];
+    		$_SESSION['totalPrice'] += ($_SESSION['cart2'] * 40.00);
     	}	
 
     	$_SESSION['cart3'] = ((isset($_SESSION['cart3'])) ? $_SESSION['cart3'] : 0);
     	if (isset($_GET["item3"])){
     		++$_SESSION['cart3'];
+    		$_SESSION['totalPrice'] += ($_SESSION['cart3'] * 0.50);
     	}	
 
     	$_SESSION['cart4'] = ((isset($_SESSION['cart4'])) ? $_SESSION['cart4'] : 0);
     	if (isset($_GET["item4"])){
     		++$_SESSION['cart4'];
+    		$_SESSION['totalPrice'] += ($_SESSION['cart4'] * 0.50);
     	}		
     ?>
     
