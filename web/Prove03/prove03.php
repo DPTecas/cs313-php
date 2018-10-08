@@ -7,7 +7,7 @@
 <body>
 	
     <button type="button" class="sCart">
-        <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+        <span class="glyphicon glyphicon-shopping-cart" style = "text-align: right";></span> Shopping Cart
     </button>
     
 </body>
