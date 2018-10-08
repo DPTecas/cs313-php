@@ -14,18 +14,19 @@
     <div class = item>
     	<img src = "pics/carbonFiberPaddle.jpg" alt = "Carbon Fiber Paddle" class = "itemImages"><br>
     	<p>Carbon Fiber Paddle $30.00</p><br>
-    	<form method = "get"><input type = "submit" name = "item1" value = "Add to Cart"></form>
+    	<form action ="<? echo $_SERVER['PHP_SELF']; ?>" method = "get">
+    	<input type = "submit" name = "item1" value = "Add to Cart">
+    	</form>
     </div>
     <?php
     	if (!isset($SESSION['cart1']))
     	$_SESSION['cart1'] = 0;
     	
-    	while(True){
-    		if (isset($_GET["item1"])){
-    			echo ++$_SESSION['cart1'];
-    			echo $_SESSION['cart1'];
-    		}
+    	
+    	if (isset($_GET["item1"])){
+    		echo ++$_SESSION['cart1'];
     	}
+    	
     	
     ?>
     
