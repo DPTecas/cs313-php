@@ -21,7 +21,7 @@
     	$_SESSION["item1"] = 0
     	if ($SERVER['REQUEST_METHOD'] === 'POST'){
     		if (isset($_POST['item1'])){
-    			$_SESSION["item1"] += 1
+    			$_SESSION["item1"] += 1;
     		}
     	}
     	?>
