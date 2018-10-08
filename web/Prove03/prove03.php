@@ -9,9 +9,7 @@
 	session_start();
 	?>
 	
-    <button type="button" class="sCart">
-        <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
-    </button>
+    <a href="https://quiet-temple-53214.herokuapp.com/Prove03/shoppingcart.php" id = "cartLink">Shopping Cart</a>
 
     <div class = item>
     	<img src = "pics/carbonFiberPaddle.jpg" alt = "Carbon Fiber Paddle" class = "itemImages"><br>
