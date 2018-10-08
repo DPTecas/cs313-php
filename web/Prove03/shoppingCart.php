@@ -6,7 +6,7 @@
 <body>
 	<?php
 	session_start();
-	?>
+	?> 
 
 	<?php
 	echo $_SESSION['cart1'];
