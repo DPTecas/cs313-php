@@ -19,7 +19,7 @@
     	<input type = "submit" name = "item1" value = "Add to Cart">
     	<?php
     	$_SESSION["item1"] = 0
-    	if ($SERVER['REQUEST_METHOD'] === 'POST'){
+    	if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     		if (isset($_POST['item1'])){
     			$_SESSION["item1"] += 1;
     		}
