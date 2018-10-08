@@ -17,9 +17,10 @@
     	<input type = "submit" name = "item1" value = "Add to Cart">
     </div>
     <?php
-    	$_SESSION["cart1"] = 0;
+    	if (!isset($SESSION['cart1']))
+    	$_SESSION['cart1'] = 0;
     	
-    	if ($_POST['item1'])){
+    	if (isset($_POST['item1'])){
     		$_SESSION["cart1"] += 1;
     	}
     	
