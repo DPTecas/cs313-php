@@ -5,7 +5,11 @@
 </head>
 <body>
 	<?php
-	echo "HELLO?!?!?" . $_SESSION["cart1"];
+	session_start();
+	?>
+	
+	<?php
+	echo "HELLO?!?!?" . $_SESSION['cart1'];
 	?>
 </body>
 </html>
