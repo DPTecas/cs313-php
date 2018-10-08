@@ -20,9 +20,11 @@
     	if (!isset($SESSION['cart1']))
     	$_SESSION['cart1'] = 0;
     	
-    	if (isset($_GET["item1"])){
-    		echo ++$_SESSION['cart1'];
-    		echo $_SESSION['cart1'];
+    	while(True){
+    		if (isset($_GET["item1"])){
+    			echo ++$_SESSION['cart1'];
+    			echo $_SESSION['cart1'];
+    		}
     	}
     	
     ?>
