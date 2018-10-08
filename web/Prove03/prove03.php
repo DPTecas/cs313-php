@@ -45,22 +45,22 @@
     <?php
     	$_SESSION['cart1'] = ((isset($_SESSION['cart1'])) ? $_SESSION['cart1'] : 0);
     	if (isset($_GET["item1"])){
-    		echo ++$_SESSION['cart1'];
+    		++$_SESSION['cart1'];
     	}
 
     	$_SESSION['cart2'] = ((isset($_SESSION['cart2'])) ? $_SESSION['cart2'] : 0);
     	if (isset($_GET["item2"])){
-    		echo ++$_SESSION['cart2'];
+    		++$_SESSION['cart2'];
     	}	
 
     	$_SESSION['cart3'] = ((isset($_SESSION['cart3'])) ? $_SESSION['cart3'] : 0);
     	if (isset($_GET["item3"])){
-    		echo ++$_SESSION['cart3'];
+    		++$_SESSION['cart3'];
     	}	
 
     	$_SESSION['cart4'] = ((isset($_SESSION['cart4'])) ? $_SESSION['cart4'] : 0);
     	if (isset($_GET["item4"])){
-    		echo ++$_SESSION['cart4'];
+    		++$_SESSION['cart4'];
     	}		
     ?>
     

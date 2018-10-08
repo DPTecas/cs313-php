@@ -7,9 +7,12 @@
 	<?php
 	session_start();
 	?>
-	
+
 	<?php
-	echo "HELLO?!?!?" . $_SESSION['cart1'];
+	echo $_SESSION['cart1'];
+	echo $_SESSION['cart2'];
+	echo $_SESSION['cart3'];
+	echo $_SESSION['cart4'];
 	?>
 </body>
 </html>
