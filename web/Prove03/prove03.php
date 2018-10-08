@@ -19,8 +19,7 @@
     	</form>
     </div>
     <?php
-    	if (!isset($SESSION['cart1']))
-    	$_SESSION['cart1'] = 0;
+    	$_SESSION['cart1'] = ((isset($_SESSION['cart1'])) ? $_SESSION['cart1'] : 0);
     	
     	
     	if (isset($_GET["item1"])){
