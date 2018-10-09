@@ -5,6 +5,6 @@
 	<title>Assignments CS313</title>
 </head>
 <body>
-	<p>WEBSITE UNDER CONSTRUCTION</p>
+	<a href="https://quiet-temple-53214.herokuapp.com/Prove03/prove03.php" id = "a03">Assignment 03</a>
 </body>
 </html>
