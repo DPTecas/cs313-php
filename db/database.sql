@@ -1,0 +1,27 @@
+CREATE TABLE users 
+(
+	id SERIAL PRIMARY KEY
+	, username VARCHAR(50) UNIQUE NOT NULL
+	, password VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE tourneys
+(
+	id SERIAL PRIMARY KEY
+	, tName VARCHAR(40) UNIQUE NOT NULL
+);
+
+CREATE TABLE entries
+(
+	id SERIAL PRIMARY KEY
+	, entry VARCHAR(40) NOT NULL
+	, tourney_id NOT NULL REFERENCES tourneys(id)
+);
+
+CREATE TABLE statistics
+(
+	id SERIAL PRIMARY KEY
+	, entry_id INT NOT NULL REFERENCES entries(id)
+	, totalScore INT NOT NULL
+);
+
