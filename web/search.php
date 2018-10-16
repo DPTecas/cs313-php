@@ -19,8 +19,8 @@
 		
 		$search = "?book=$book&chapter=$chapter&verse=$verse";
 		$scrip = $row['book'] . " " . $row['chapter'] . ":" . $row['verse'] . "<br>";
-		//echo "<a href=\"https://quiet-temple-53214.herokuapp.com/scripInfo.php$search\">$scrip</a>";
-		echo "$search";
+		echo "<a href=\"https://quiet-temple-53214.herokuapp.com/scripInfo.php$search\">$scrip</a>";
+		
 
 
 	}
