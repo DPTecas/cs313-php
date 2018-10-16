@@ -15,8 +15,8 @@
 	{
 
 		$scrip = $row['book'] . " " . $row['chapter'] . ":" . $row['verse'] . "<br>";
-		echo "<a href=\"https://quiet-temple-53214.herokuapp.com/scripInfo.php\">$scrip</a>";
-		//?book=$row['book']&chapter=$row['chapter']&verse=$row['verse']
+		echo "<a href=\"https://quiet-temple-53214.herokuapp.com/scripInfo.php?book=$row['book']&chapter=$row['chapter']&verse=$row['verse']\">$scrip</a>";
+
 
 	}
 
