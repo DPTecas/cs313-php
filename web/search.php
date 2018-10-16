@@ -11,9 +11,11 @@
 
 	$var = "'" . $_GET['book'] . "'";
 
-	foreach ($db->query("SELECT book, chapter, verse, content FROM scriptures WHERE book = $var") as $row)
+	foreach ($db->query("SELECT book, chapter, verse FROM scriptures WHERE book = $var") as $row)
 	{
-		echo $row['book'] . " " . $row['chapter'] . ":" . $row['verse'] . "<br>" . $row['content'] . "<br>";
+
+		$scrip = $row['book'] . " " . $row['chapter'] . ":" . $row['verse'] . "<br>";
+		echo "<a href=\"https://quiet-temple-53214.herokuapp.com/scripInfo.php?book=$row['book']&chapter=$row['chapter']&verse=$row['verse']\">$scrip</a>";
 
 	}
 
