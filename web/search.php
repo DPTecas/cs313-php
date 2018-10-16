@@ -11,7 +11,7 @@
 
 	$var = $_GET['book'];
 
-	foreach ($db->query('SELECT book, chapter, verse, content FROM scriptures WHERE book = $var') as $row)
+	foreach ($db->query('SELECT book, chapter, verse, content FROM scriptures WHERE book = '$var'') as $row)
 	{
 		echo $row['book'] . " " . $row['chapter'] . ":" . $row['verse'] . "<br>" . $row['content'] . "<br>";
 
