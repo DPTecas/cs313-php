@@ -9,7 +9,7 @@
 	ini_set("display_errors", 1); error_reporting(E_ALL);
 	require ("dbConnect.php");
 
-	foreach ($db->query('SELECT username, password FROM note_user') as $row)
+	foreach ($db->query('SELECT book, chapter, verse, content FROM scriptures') as $row)
 	{
 		echo $row['book'] . " " . $row['chapter'] . ":" . $row['verse'] . "\n" . $row['content'] . "\n";
 
