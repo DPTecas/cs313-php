@@ -5,7 +5,7 @@
 </head>
 <body>
 	<?php
-	require "dbConnect.php";
+	require ("dbConnect.php");
 
 	foreach ($db->query('SELECT username, password FROM note_user') as $row)
 	{
