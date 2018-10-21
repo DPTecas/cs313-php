@@ -9,7 +9,7 @@
 	<?php
 	require ("dbConnect.php");
 
-	foreach ($db->query('SELECT tName FROM tourneys') as $row)
+	foreach ($db->query('SELECT tname FROM tourneys') as $row)
 	{
 		$tourney = $row['tName'];
 		echo "$tourney";
