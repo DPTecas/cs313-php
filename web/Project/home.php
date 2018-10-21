@@ -9,7 +9,7 @@
 	<?php
 	require ("dbConnect.php");
 
-	<foreach ($db->query("SELECT tName FROM tourneys") as $row)
+	foreach ($db->query("SELECT tName FROM tourneys") as $row)
 	{
 		$tourney = $row['tName'];
 		//echo "<a href=\"https://quiet-temple-53214.herokuapp.com/Project/bracket$tourney.php\">$tourney</a>";

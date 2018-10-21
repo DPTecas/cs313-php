@@ -9,7 +9,7 @@
 	<?php
 	require ("dbConnect.php");
 
-	<foreach ($db->query("SELECT entry FROM entries WHERE tName = 'Soda'") as $row)
+	foreach ($db->query("SELECT entry FROM entries WHERE tName = 'Soda'") as $row)
 	{
 		$entry = $row['entry'];
 		echo "$entry" . "<br>";
