@@ -11,9 +11,9 @@
 
 	foreach ($db->query('SELECT tname FROM tourneys') as $row)
 	{
-		$tourney = $row['tName'];
+		$tourney = $row['tname'];
 		echo "$tourney";
-		//echo "<a href=\"https://quiet-temple-53214.herokuapp.com/Project/bracket$tourney.php\">$tourney</a>";
+		echo "<a href=\"https://quiet-temple-53214.herokuapp.com/Project/bracket$tourney.php\">$tourney</a>";
 	}
 
 
