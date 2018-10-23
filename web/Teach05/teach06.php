@@ -17,11 +17,11 @@
 	ini_set("display_errors", 1); error_reporting(E_ALL);
 	require ("dbConnect.php");
 
-	foreach ($db->query('SELECT * FROM topic') as $row)
+	foreach ($db->query('SELECT * FROM topics') as $row)
 	{
 		$id = $row['id'];
 		$topic = $row['topic'];
-		echo "<input type="checkbox" name = "topic" value = "$id"> $topic<br>";
+		echo "<input type=\"checkbox\" name = \"topic\" value = \"$id\"> $topic<br>";
 
 	}
 
