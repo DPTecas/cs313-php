@@ -21,10 +21,10 @@
 
 	<ul>
 	<?php
-		foreach ($courses as $course) {
-			$id = $course['id'];
-			$name = $course['name'];
-			$code = $course['code'];
+#		foreach ($courses as $course) {
+#			$id = $course['id'];
+#			$name = $course['name'];
+#			$code = $course['code'];
 
 			//echo "<li><p>$code - $name</p></li>\n";
 		}
