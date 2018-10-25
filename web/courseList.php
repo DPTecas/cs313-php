@@ -27,7 +27,7 @@
 #			$code = $course['code'];
 
 			//echo "<li><p>$code - $name</p></li>\n";
-		}
+#		}
 	?>
 	</ul>
 
