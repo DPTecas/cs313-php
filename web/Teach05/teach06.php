@@ -5,12 +5,12 @@
 </head>
 <body>
 
-	<form action="search.php" method="get">
+	<form action="search.php" method="post">
 	Book: <input type="text" name="book"><br>
 	Chapter: <input type="text" name="chapter"><br>
 	Verse: <input type="text" name="verse"><br>
 	Content: <textarea rows="4" cols="50" name="content"></textarea><br>
-	<input type="submit">
+	
 	
 
 	<?php
@@ -21,12 +21,12 @@
 	{
 		$id = $row['id'];
 		$topic = $row['topic'];
-		echo "<input type=\"checkbox\" name = \"topic\" value = \"$id\"> $topic<br>";
+		echo "<input type=\"checkbox\" name = \"topic[]\" value = \"$id\"> $topic<br>";
 
 	}
 
 	?>
-
+	<input type="submit">
 	</form>
 
 </body>
