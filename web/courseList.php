@@ -5,7 +5,7 @@
 
 	$query = 'SELECT id, code, name FROM course';
 
-	$stmt = db->prepare($query);
+	$stmt = $db->prepare($query);
 	$stmt->execute();
 	$courses = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
