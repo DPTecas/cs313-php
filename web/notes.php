@@ -5,7 +5,7 @@
 </head>
 <body>
 	<?php
-	require "dbConnect.php"
+	require ("dbConnect.php");
 
 
 	?>
