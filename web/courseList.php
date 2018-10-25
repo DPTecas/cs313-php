@@ -23,8 +23,8 @@
 	<?php
 		foreach ($courses as $course) {
 			$id = $course['id'];
-			$name = $courses['name'];
-			$code = $courses['code'];
+			$name = $course['name'];
+			$code = $course['code'];
 
 			echo "<li><p>$code - $name</p></li>\n";
 		}
