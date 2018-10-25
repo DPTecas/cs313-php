@@ -1,7 +1,7 @@
 <?php
 	require("dbConnect.php");
 
-	#$db = get_db();
+	$db = get_db();
 
 	#$query = 'SELECT id, code, name FROM course';
 
