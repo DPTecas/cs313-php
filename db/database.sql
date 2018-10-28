@@ -8,7 +8,7 @@ CREATE TABLE entries
 (
 	id SERIAL PRIMARY KEY
 	, entry VARCHAR(40) NOT NULL
-	, tName VARCHAR(40) NOT NULL REFERENCES tourneys(tName)
+	, tourney_id INT NOT NULL REFERENCES tourneys(id)
 );
 
 CREATE TABLE statistics
