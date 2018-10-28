@@ -313,22 +313,28 @@ function d3() {
 
 function e0(){
 
-	document.getElementById("e0").style.display="none";
+	/*document.getElementById("e0").style.display="none";
 	document.getElementById("e1").style.display="none";
 
 	document.getElementById("winner").textContent=document.getElementById("e0").textContent;
 	document.getElementById("winner").style.display="block";
 	document.getElementById("pre").style.display="block";
+*/
+	var x = document.getElementById("e0").textContent;
+	window.location.href = 'https://quiet-temple-53214.herokuapp.com/Project/result.php?entry=' + x;
 }
 
 function e1(){
-
+/*
 	document.getElementById("e0").style.display="none";
 	document.getElementById("e1").style.display="none";
 
 	document.getElementById("winner").innerHTML= document.getElementById("e1").textContent;
 	document.getElementById("winner").style.display="block";
 	document.getElementById("pre").style.display="block";
+*/
+	var x = document.getElementById("e1").textContent;
+	window.location.href = 'https://quiet-temple-53214.herokuapp.com/Project/result.php?entry=' + x;
 }
 
 

@@ -9,13 +9,7 @@ CREATE TABLE entries
 	id SERIAL PRIMARY KEY
 	, entry VARCHAR(40) NOT NULL
 	, tourney_id INT NOT NULL REFERENCES tourneys(id)
-);
-
-CREATE TABLE statistics
-(
-	id SERIAL PRIMARY KEY
-	, entry_id INT NOT NULL REFERENCES entries(id)
-	, totalScore INT NOT NULL
+	, score INT NOT NULL
 );
 
 INSERT INTO tourneys (tName) VALUES ('Soda');
