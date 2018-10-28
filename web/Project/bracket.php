@@ -23,9 +23,24 @@
 	foreach ($entries as $row)
 	{
 		$entry = $row['entry'];
-		echo "$entry" . "<br>";
 	}
 
+	echo "<button id = \"b0\" type=\"button\">$entries[0]</button>";
+	echo "<button id = \"b1\" type=\"button\">$entries[1]</button>";
+	echo "<button id = \"b2\" type=\"button\">$entries[2]</button>";
+	echo "<button id = \"b3\" type=\"button\">$entries[3]</button>";
+	echo "<button id = \"b4\" type=\"button\">$entries[4]</button>";
+	echo "<button id = \"b5\" type=\"button\">$entries[5]</button>";
+	echo "<button id = \"b6\" type=\"button\">$entries[6]</button>";
+	echo "<button id = \"b7\" type=\"button\">$entries[7]</button>";
+	echo "<button id = \"b8\" type=\"button\">$entries[8]</button>";
+	echo "<button id = \"b9\" type=\"button\">$entries[9]</button>";
+	echo "<button id = \"b10\" type=\"button\">$entries[10]</button>";
+	echo "<button id = \"b11\" type=\"button\">$entries[11]</button>";
+	echo "<button id = \"b12\" type=\"button\">$entries[12]</button>";
+	echo "<button id = \"b13\" type=\"button\">$entries[13]</button>";
+	echo "<button id = \"b14\" type=\"button\">$entries[14]</button>";
+	echo "<button id = \"b15\" type=\"button\">$entries[15]</button>";
 
 	?>
 </body>
