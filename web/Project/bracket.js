@@ -311,4 +311,22 @@ function d3() {
    document.getElementById("d3").disabled = true;
 }
 
+function e0(){
+
+	document.getElementById("e0").style.display="none";
+	document.getElementById("e1").style.display="none";
+
+	document.getElementById("winner").textContent=document.getElementById("e0").textContent;
+	document.getElementById("winner").style.display="block";
+}
+
+function e1(){
+
+	document.getElementById("e0").style.display="none";
+	document.getElementById("e1").style.display="none";
+
+	document.getElementById("winner").textContent=document.getElementById("e1").textContent;
+	document.getElementById("winner").style.display="block";
+}
+
 

@@ -191,3 +191,10 @@
     top: 475px;
     display: none;
 }
+
+#winner{
+	position: absolute;
+	left: 500px;
+	top: 375px;
+	display: none;
+}

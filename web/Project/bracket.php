@@ -64,5 +64,7 @@
 	<button id = "e0" type = "button"></button>
 	<button id = "e1" type = "button"></button>
 
+	<p id = "winner"></p>
+
 </body>
 </html>
