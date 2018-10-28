@@ -19,6 +19,10 @@
 	$stmt->bindValue(':entry', $entry, PDO::PARAM_STR);
 	$stmt->execute();
 	$scores = $stmt->fetchAll(PDO::FETCH_ASSOC);
+	
+
+	echo "The winner is $entry";
+	echo "Other people who think this is number one: " . $scores[0]['score'];
 	$scores[0]['score'] += 1;
 
 	$query = 'UPDATE entries SET score = :score WHERE entry = :entry';
@@ -28,10 +32,7 @@
 	$stmt->execute();
 	$entries = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-	
 
-	echo "The winner is $entry";
-	echo "Other people who think this is number one: " . $scores[0]['score'];
 	?>
 
 </body>
