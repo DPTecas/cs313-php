@@ -198,3 +198,11 @@
 	top: 375px;
 	display: none;
 }
+
+#pre{
+	position: absolute;
+	left: 500px;
+	top: 350px;
+	display: none;
+
+}

@@ -64,6 +64,7 @@
 	<button id = "e0" onclick = "e0()" type = "button"></button>
 	<button id = "e1" onclick = "e1()" type = "button"></button>
 
+	<p id = "pre">The winner is </p>
 	<p id = "winner"></p>
 
 </body>
