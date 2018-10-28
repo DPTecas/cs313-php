@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<script src="bracket.js"></script>
 
 	<p>Soda Tournament! Who will come out on top? You decide.</p>
 	<?php
@@ -45,5 +46,14 @@
 	echo "<button id = \"b15\" type=\"button\">$entry[15]</button>";
 
 	?>
+
+	<button id = "c0" type = "button"></button>
+	<button id = "c1" type = "button"></button>
+	<button id = "c2" type = "button"></button>
+	<button id = "c3" type = "button"></button>
+	<button id = "c4" type = "button"></button>
+	<button id = "c5" type = "button"></button>
+	<button id = "c6" type = "button"></button>
+	<button id = "c7" type = "button"></button>
 </body>
 </html>
