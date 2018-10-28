@@ -11,13 +11,13 @@
 
 	$db = get_db();
 
+	$id = $_GET['id'];
+
 	$query = 'SELECT entry FROM entries WHERE id = $id';
 
 	$stmt = $db->prepare($query);
 	$stmt->execute();
 	$entries = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-	$id = $_GET['id'];
 
 	foreach ($entries as $row)
 	{
