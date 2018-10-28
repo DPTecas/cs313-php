@@ -8,12 +8,19 @@
 
 	<?php
 	require ("dbConnect.php");
+	$db = get_db();
 
-	foreach ($db->query('SELECT id, tname FROM tourneys') as $row)
+	$query = 'SELECT id, tname FROM tourneys';
+
+	$stmt = $db->prepare($query);
+	$stmt->execute();
+	$tourneys = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+	foreach ($tourneys as $row)
 	{
 		$id = $row['id'];
 		$tourney = $row['tname'];
-		echo "<a href=\"https://quiet-temple-53214.herokuapp.com/Project/bracket.php\">$tourney</a><br>";
+		echo "<a href=\"https://quiet-temple-53214.herokuapp.com/Project/bracket.php?id=$id\">$tourney</a><br>";
 	}
 
 
