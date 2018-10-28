@@ -20,12 +20,13 @@
 	$stmt->execute();
 	$entries = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
+	$entry = array();
 	foreach ($entries as $row)
 	{
-		$entry = $row['entry'];
+		array_push($entry,$row['entry']);
 	}
 
-	echo "<button id = \"b0\" type=\"button\">$entries[0]['entry']</button>";
+	echo "<button id = \"b0\" type=\"button\">$entry[0]</button>";
 	echo "<button id = \"b1\" type=\"button\">$entries[1]</button>";
 	echo "<button id = \"b2\" type=\"button\">$entries[2]</button>";
 	echo "<button id = \"b3\" type=\"button\">$entries[3]</button>";
