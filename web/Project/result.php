@@ -19,7 +19,7 @@
 	$stmt->bindValue(':entry', $entry, PDO::PARAM_STR);
 	$stmt->execute();
 	$scores = $stmt->fetchAll(PDO::FETCH_ASSOC);
-	$scores[0]['score'] += 1 
+	$scores[0]['score'] += 1;
 
 	$query = 'UPDATE entries SET score = :score WHERE entry = :entry';
 	$stmt = $db->prepare($query);
