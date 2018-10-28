@@ -9,9 +9,17 @@
 	<?php
 	require ("dbConnect.php");
 
+	$db = get_db();
+
+	$query = 'SELECT entry FROM entries WHERE id = $id';
+
+	$stmt = $db->prepare($query);
+	$stmt->execute();
+	$entries = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
 	$id = $_GET['id'];
 
-	foreach ($db->query("SELECT entry FROM entries WHERE id = $id") as $row)
+	foreach ($entries as $row)
 	{
 		$entry = $row['entry'];
 		echo "$entry" . "<br>";
