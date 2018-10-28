@@ -47,13 +47,22 @@
 
 	?>
 
-	<button id = "c0" display = "none" type = "button"></button>
-	<button id = "c1" display = "none" type = "button"></button>
-	<button id = "c2" display = "none" type = "button"></button>
-	<button id = "c3" display = "none" type = "button"></button>
-	<button id = "c4" display = "none" type = "button"></button>
-	<button id = "c5" display = "none" type = "button"></button>
-	<button id = "c6" display = "none" type = "button"></button>
-	<button id = "c7" display = "none" type = "button"></button>
+	<button id = "c0" onclick = "c0()" type = "button"></button>
+	<button id = "c1" onclick = "c1()" type = "button"></button>
+	<button id = "c2" onclick = "c2()" type = "button"></button>
+	<button id = "c3" onclick = "c3()" type = "button"></button>
+	<button id = "c4" onclick = "c4()" type = "button"></button>
+	<button id = "c5" onclick = "c5()" type = "button"></button>
+	<button id = "c6" onclick = "c6()" type = "button"></button>
+	<button id = "c7" onclick = "c7()" type = "button"></button>
+
+	<button id = "d0" onclick = "d0()" type = "button"></button>
+	<button id = "d1" onclick = "d1()" type = "button"></button>
+	<button id = "d2" onclick = "d2()" type = "button"></button>
+	<button id = "d3" onclick = "d3()" type = "button"></button>
+
+	<button id = "e0" type = "button"></button>
+	<button id = "e1" type = "button"></button>
+
 </body>
 </html>

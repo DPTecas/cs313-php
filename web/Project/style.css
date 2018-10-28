@@ -149,3 +149,45 @@
     top: 825px;
     display: none;
 }
+
+#d0{
+	position: absolute;
+    left: 250px;
+    top: 175px;
+    display: none;
+}
+
+#d1{
+	position: absolute;
+    left: 250px;
+    top: 375px;
+    display: none;
+}
+
+#d2{
+	position: absolute;
+    left: 250px;
+    top: 575px;
+    display: none;
+}
+
+#d3{
+	position: absolute;
+    left: 250px;
+    top: 775px;
+    display: none;
+}
+
+#e0{
+	position: absolute;
+    left: 350px;
+    top: 275px;
+    display: none;
+}
+
+#e1{
+	position: absolute;
+    left: 350px;
+    top: 475px;
+    display: none;
+}

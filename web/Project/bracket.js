@@ -173,3 +173,142 @@ function b15() {
    document.getElementById("b14").disabled = true;
    document.getElementById("b15").disabled = true;
 }
+
+function c0() {   
+   document.getElementById("c0").style.display="none";
+   document.getElementById("c1").style.display="none";
+
+   document.getElementById("d0").textContent=document.getElementById("c0").textContent;
+   document.getElementById("d0").style.display="block";
+
+   document.getElementById("c0").disabled = true;
+   document.getElementById("c1").disabled = true;
+}
+
+function c1() {   
+   document.getElementById("c0").style.display="none";
+   document.getElementById("c1").style.display="none";
+
+   document.getElementById("d0").textContent=document.getElementById("c1").textContent;
+   document.getElementById("d0").style.display="block";
+
+   document.getElementById("c0").disabled = true;
+   document.getElementById("c1").disabled = true;
+}
+
+
+function c2() {   
+   document.getElementById("c2").style.display="none";
+   document.getElementById("c3").style.display="none";
+
+   document.getElementById("d1").textContent=document.getElementById("c2").textContent;
+   document.getElementById("d1").style.display="block";
+
+   document.getElementById("c2").disabled = true;
+   document.getElementById("c3").disabled = true;
+}
+
+
+function c3() {   
+   document.getElementById("c2").style.display="none";
+   document.getElementById("c3").style.display="none";
+
+   document.getElementById("d1").textContent=document.getElementById("c3").textContent;
+   document.getElementById("d1").style.display="block";
+
+   document.getElementById("c2").disabled = true;
+   document.getElementById("c3").disabled = true;
+}
+
+
+function c4() {   
+   document.getElementById("c4").style.display="none";
+   document.getElementById("c5").style.display="none";
+
+   document.getElementById("d2").textContent=document.getElementById("c4").textContent;
+   document.getElementById("d2").style.display="block";
+
+   document.getElementById("c4").disabled = true;
+   document.getElementById("c5").disabled = true;
+}
+
+
+function c5() {   
+   document.getElementById("c4").style.display="none";
+   document.getElementById("c5").style.display="none";
+
+   document.getElementById("d2").textContent=document.getElementById("c5").textContent;
+   document.getElementById("d2").style.display="block";
+
+   document.getElementById("c4").disabled = true;
+   document.getElementById("c5").disabled = true;
+}
+
+
+function c6() {   
+   document.getElementById("c6").style.display="none";
+   document.getElementById("c7").style.display="none";
+
+   document.getElementById("d3").textContent=document.getElementById("c6").textContent;
+   document.getElementById("d3").style.display="block";
+
+   document.getElementById("c6").disabled = true;
+   document.getElementById("c7").disabled = true;
+}
+
+function c7() {   
+   document.getElementById("c6").style.display="none";
+   document.getElementById("c7").style.display="none";
+
+   document.getElementById("d3").textContent=document.getElementById("c7").textContent;
+   document.getElementById("d3").style.display="block";
+
+   document.getElementById("c6").disabled = true;
+   document.getElementById("c7").disabled = true;
+}
+
+function d0() {   
+   document.getElementById("d0").style.display="none";
+   document.getElementById("d1").style.display="none";
+
+   document.getElementById("e0").textContent=document.getElementById("d0").textContent;
+   document.getElementById("e0").style.display="block";
+
+   document.getElementById("d0").disabled = true;
+   document.getElementById("d1").disabled = true;
+}
+
+function d1() {   
+   document.getElementById("d0").style.display="none";
+   document.getElementById("d1").style.display="none";
+
+   document.getElementById("e0").textContent=document.getElementById("d1").textContent;
+   document.getElementById("e0").style.display="block";
+
+   document.getElementById("d0").disabled = true;
+   document.getElementById("d1").disabled = true;
+}
+
+function d2() {   
+   document.getElementById("d2").style.display="none";
+   document.getElementById("d3").style.display="none";
+
+   document.getElementById("e1").textContent=document.getElementById("d2").textContent;
+   document.getElementById("e1").style.display="block";
+
+   document.getElementById("d2").disabled = true;
+   document.getElementById("d3").disabled = true;
+}
+
+function d3() {   
+   document.getElementById("d2").style.display="none";
+   document.getElementById("d3").style.display="none";
+
+   document.getElementById("e1").textContent=document.getElementById("d3").textContent;
+   document.getElementById("e1").style.display="block";
+
+   document.getElementById("d2").disabled = true;
+   document.getElementById("d3").disabled = true;
+}
+
+
