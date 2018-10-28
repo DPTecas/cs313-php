@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<script src="bracket.js"></script>
+	<script src="bracket.js" type = "text/javascript"></script>
 
 	<p>Soda Tournament! Who will come out on top? You decide.</p>
 	<?php
