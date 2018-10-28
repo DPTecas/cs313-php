@@ -37,7 +37,7 @@ INSERT INTO entries (entry, tourney_id) VALUES ('Diet Dr Pepper', 1);
 INSERT INTO entries (entry, tourney_id) VALUES ('Diet Mountain Dew', 1);
 INSERT INTO entries (entry, tourney_id) VALUES ('Mellow Yellow', 1);
 INSERT INTO entries (entry, tourney_id) VALUES ('Cherry Pepsi', 1);
-INSERT INTO entries (entry, tourney_id) VALUES ('Mountai Dew Code Red', 1);
+INSERT INTO entries (entry, tourney_id) VALUES ('Mountain Dew Code Red', 1);
 
 INSERT INTO entries (entry, tourney_id) VALUES ('Snickers', 2);
 INSERT INTO entries (entry, tourney_id) VALUES ('Skittles', 2);

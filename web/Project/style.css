@@ -91,7 +91,7 @@
 #b15{
 	position: absolute;
     left: 50px;
-    top: 800px;
+    top: 850px;
 }
 
 #c0{
@@ -139,13 +139,13 @@
 #c6{
 	position: absolute;
     left: 150px;
-    top: 425px;
+    top: 725px;
     display: none;
 }
 
 #c7{
 	position: absolute;
     left: 150px;
-    top: 725px;
+    top: 825px;
     display: none;
 }
