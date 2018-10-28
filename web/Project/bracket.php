@@ -13,7 +13,7 @@
 
 	$id = $_GET['id'];
 
-	$query = 'SELECT entry FROM entries WHERE id = $id';
+	$query = 'SELECT entry FROM entries WHERE tourney_id = $id';
 
 	$stmt = $db->prepare($query);
 	$stmt->execute();
