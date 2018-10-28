@@ -29,31 +29,31 @@
 	}
 
 	echo "<button id = \"b0\" onclick = \"b0()\" type=\"button\">$entry[0]</button>";
-	echo "<button id = \"b1\" type=\"button\">$entry[1]</button>";
-	echo "<button id = \"b2\" type=\"button\">$entry[2]</button>";
-	echo "<button id = \"b3\" type=\"button\">$entry[3]</button>";
-	echo "<button id = \"b4\" type=\"button\">$entry[4]</button>";
-	echo "<button id = \"b5\" type=\"button\">$entry[5]</button>";
-	echo "<button id = \"b6\" type=\"button\">$entry[6]</button>";
-	echo "<button id = \"b7\" type=\"button\">$entry[7]</button>";
-	echo "<button id = \"b8\" type=\"button\">$entry[8]</button>";
-	echo "<button id = \"b9\" type=\"button\">$entry[9]</button>";
-	echo "<button id = \"b10\" type=\"button\">$entry[10]</button>";
-	echo "<button id = \"b11\" type=\"button\">$entry[11]</button>";
-	echo "<button id = \"b12\" type=\"button\">$entry[12]</button>";
-	echo "<button id = \"b13\" type=\"button\">$entry[13]</button>";
-	echo "<button id = \"b14\" type=\"button\">$entry[14]</button>";
-	echo "<button id = \"b15\" type=\"button\">$entry[15]</button>";
+	echo "<button id = \"b1\" onclick = \"b1()\" type=\"button\">$entry[1]</button>";
+	echo "<button id = \"b2\" onclick = \"b2()\" type=\"button\">$entry[2]</button>";
+	echo "<button id = \"b3\" onclick = \"b3()\" type=\"button\">$entry[3]</button>";
+	echo "<button id = \"b4\" onclick = \"b4()\" type=\"button\">$entry[4]</button>";
+	echo "<button id = \"b5\" onclick = \"b5()\" type=\"button\">$entry[5]</button>";
+	echo "<button id = \"b6\" onclick = \"b6()\" type=\"button\">$entry[6]</button>";
+	echo "<button id = \"b7\" onclick = \"b7()\" type=\"button\">$entry[7]</button>";
+	echo "<button id = \"b8\" onclick = \"b8()\" type=\"button\">$entry[8]</button>";
+	echo "<button id = \"b9\" onclick = \"b9()\" type=\"button\">$entry[9]</button>";
+	echo "<button id = \"b10\" onclick = \"b10()\" type=\"button\">$entry[10]</button>";
+	echo "<button id = \"b11\" onclick = \"b11()\" type=\"button\">$entry[11]</button>";
+	echo "<button id = \"b12\" onclick = \"b12()\" type=\"button\">$entry[12]</button>";
+	echo "<button id = \"b13\" onclick = \"b13()\" type=\"button\">$entry[13]</button>";
+	echo "<button id = \"b14\" onclick = \"b14()\" type=\"button\">$entry[14]</button>";
+	echo "<button id = \"b15\" onclick = \"b15()\" type=\"button\">$entry[15]</button>";
 
 	?>
 
-	<button id = "c0" type = "button"></button>
-	<button id = "c1" type = "button"></button>
-	<button id = "c2" type = "button"></button>
-	<button id = "c3" type = "button"></button>
-	<button id = "c4" type = "button"></button>
-	<button id = "c5" type = "button"></button>
-	<button id = "c6" type = "button"></button>
-	<button id = "c7" type = "button"></button>
+	<button id = "c0" display = "none" type = "button"></button>
+	<button id = "c1" display = "none" type = "button"></button>
+	<button id = "c2" display = "none" type = "button"></button>
+	<button id = "c3" display = "none" type = "button"></button>
+	<button id = "c4" display = "none" type = "button"></button>
+	<button id = "c5" display = "none" type = "button"></button>
+	<button id = "c6" display = "none" type = "button"></button>
+	<button id = "c7" display = "none" type = "button"></button>
 </body>
 </html>
