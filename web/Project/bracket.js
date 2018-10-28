@@ -318,6 +318,7 @@ function e0(){
 
 	document.getElementById("winner").textContent=document.getElementById("e0").textContent;
 	document.getElementById("winner").style.display="block";
+	document.getElementById("pre").style.display="block";
 }
 
 function e1(){
