@@ -13,7 +13,7 @@
 	{
 		$id = $row['id'];
 		$tourney = $row['tname'];
-		echo "<a href=\"https://quiet-temple-53214.herokuapp.com/Project/bracket.php\">$tourney</a>" . "<br>";
+		echo "<a href=\"https://quiet-temple-53214.herokuapp.com/Project/bracket.php\">$tourney</a><br>";
 	}
 
 
