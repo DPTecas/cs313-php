@@ -73,19 +73,19 @@
 #b12{
 	position: absolute;
     left: 50px;
-    top: 400px;
+    top: 700px;
 }
 
 #b13{
 	position: absolute;
     left: 50px;
-    top: 700px;
+    top: 750px;
 }
 
 #b14{
 	position: absolute;
     left: 50px;
-    top: 750px;
+    top: 800px;
 }
 
 #b15{
@@ -104,35 +104,35 @@
 #c1{
 	position: absolute;
     left: 150px;
-    top: 175px;
+    top: 225px;
     display: none;
 }
 
 #c2{
 	position: absolute;
     left: 150px;
-    top: 225px;
+    top: 325px;
     display: none;
 }
 
 #c3{
 	position: absolute;
     left: 150px;
-    top: 275px;
+    top: 425px;
     display: none;
 }
 
 #c4{
 	position: absolute;
     left: 150px;
-    top: 325px;
+    top: 525px;
     display: none;
 }
 
 #c5{
 	position: absolute;
     left: 150px;
-    top: 375px;
+    top: 625px;
     display: none;
 }
 
@@ -146,6 +146,6 @@
 #c7{
 	position: absolute;
     left: 150px;
-    top: 475px;
+    top: 725px;
     display: none;
 }
