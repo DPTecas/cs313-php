@@ -13,9 +13,10 @@
 
 	$id = $_GET['id'];
 
-	$query = 'SELECT entry FROM entries WHERE tourney_id = $id';
+	$query = 'SELECT entry FROM entries WHERE tourney_id = :id';
 
 	$stmt = $db->prepare($query);
+	$stmt->bindValue(':id', $id, PDO::PARAM_INT);
 	$stmt->execute();
 	$entries = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
