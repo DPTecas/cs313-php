@@ -9,10 +9,11 @@
 	<?php
 	require ("dbConnect.php");
 
-	foreach ($db->query('SELECT tname FROM tourneys') as $row)
+	foreach ($db->query('SELECT id, tname FROM tourneys') as $row)
 	{
+		$id = $row['id'];
 		$tourney = $row['tname'];
-		echo "<a href=\"https://quiet-temple-53214.herokuapp.com/Project/bracket$tourney.php\">$tourney</a>" . "<br>";
+		echo "<a href=\"https://quiet-temple-53214.herokuapp.com/Project/bracket?id=$id.php\">$tourney</a>" . "<br>";
 	}
 
 
