@@ -61,8 +61,8 @@
 	<button id = "d2" onclick = "d2()" type = "button"></button>
 	<button id = "d3" onclick = "d3()" type = "button"></button>
 
-	<button id = "e0" type = "button"></button>
-	<button id = "e1" type = "button"></button>
+	<button id = "e0" onclick = "e0()" type = "button"></button>
+	<button id = "e1" onclick = "e1()" type = "button"></button>
 
 	<p id = "winner"></p>
 

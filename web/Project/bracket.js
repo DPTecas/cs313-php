@@ -325,7 +325,7 @@ function e1(){
 	document.getElementById("e0").style.display="none";
 	document.getElementById("e1").style.display="none";
 
-	document.getElementById("winner").textContent=document.getElementById("e1").textContent;
+	document.getElementById("winner").textContent="The winner is " + document.getElementById("e1").textContent;
 	document.getElementById("winner").style.display="block";
 }
 
