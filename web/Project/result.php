@@ -19,9 +19,9 @@
 	$stmt->bindValue(':entry', $entry, PDO::PARAM_STR);
 	$stmt->execute();
 	$scores = $stmt->fetchAll(PDO::FETCH_ASSOC);
-	
 
-	echo "The winner is $entry";
+
+	echo "The winner is $entry<br>";
 	echo "Other people who think this is number one: " . $scores[0]['score'];
 	$scores[0]['score'] += 1;
 
