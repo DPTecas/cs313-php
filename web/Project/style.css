@@ -98,46 +98,54 @@
 	position: absolute;
     left: 150px;
     top: 125px;
+    display: none;
 }
 
 #c1{
 	position: absolute;
     left: 150px;
     top: 175px;
+    display: none;
 }
 
 #c2{
 	position: absolute;
     left: 150px;
     top: 225px;
+    display: none;
 }
 
 #c3{
 	position: absolute;
     left: 150px;
     top: 275px;
+    display: none;
 }
 
 #c4{
 	position: absolute;
     left: 150px;
     top: 325px;
+    display: none;
 }
 
 #c5{
 	position: absolute;
     left: 150px;
     top: 375px;
+    display: none;
 }
 
 #c6{
 	position: absolute;
     left: 150px;
     top: 425px;
+    display: none;
 }
 
 #c7{
 	position: absolute;
     left: 150px;
     top: 475px;
+    display: none;
 }
