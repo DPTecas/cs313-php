@@ -2,8 +2,6 @@
 	position: absolute;
     left: 50px;
     top: 100px;
-    border-bottom: 3px solid black;
-	margin-right: 700px;
 }
 
 #b1{
@@ -195,13 +193,16 @@
 }
 
 #bar1{
+	border-top: 3px solid black;
 	border-bottom: 3px solid black;
+	border-right: 3px solid black;
 	margin-right: 700px;
+	margin-left: 50px;
 	margin-top: 125px;
 }
 
 #bar2{
 	border-bottom: 3px solid black;
 	margin-right: 700px;
-	margin-top: 175px;
+	
 }
