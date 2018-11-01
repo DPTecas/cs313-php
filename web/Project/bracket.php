@@ -47,8 +47,7 @@
 
 	?>
 
-	<canvas id="myCanvas" width="300" height="150" style="border:1px solid #d3d3d3;">
-	Your browser does not support the HTML5 canvas tag.</canvas>
+	<div id = bar1></div>
 
 	<button id = "c0" onclick = "c0()" type = "button"></button>
 	<button id = "c1" onclick = "c1()" type = "button"></button>

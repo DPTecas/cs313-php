@@ -323,11 +323,6 @@ function e1(){
 	window.location.href = 'https://quiet-temple-53214.herokuapp.com/Project/result.php?entry=' + x;
 }
 
-var c=document.getElementById("myCanvas");
-var ctx=c.getContext("2d");
-ctx.beginPath();
-ctx.moveTo(0,0);
-ctx.lineTo(300,150);
-ctx.stroke();
+
 
 
