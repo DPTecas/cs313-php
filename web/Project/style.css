@@ -195,13 +195,11 @@
 #bar1{
 	border-bottom: 3px solid black;
 	margin-right: 700px;
-	position: absolute;
-	top: 125px;
+	margin-top: 125px;
 }
 
 #bar2{
 	border-bottom: 3px solid black;
 	margin-right: 700px;
-	position: absolute;
-	top: 175px;
+	margin-top: 175px;
 }
