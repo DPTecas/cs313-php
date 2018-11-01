@@ -47,7 +47,7 @@
 
 	?>
 
-	<img id = "drawing" src="bracketDrawing.png" alt="Italian Trulli">
+	<img id = "drawing" src="Project/bracketDrawing.png" alt="Bracket">
 
 	<button id = "c0" onclick = "c0()" type = "button"></button>
 	<button id = "c1" onclick = "c1()" type = "button"></button>
