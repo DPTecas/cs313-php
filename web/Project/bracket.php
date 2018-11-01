@@ -47,8 +47,7 @@
 
 	?>
 
-	<div id = bar1></div>
-	<div id = bar2></div>
+	<img id = "drawing" src="bracketDrawing.png" alt="Italian Trulli">
 
 	<button id = "c0" onclick = "c0()" type = "button"></button>
 	<button id = "c1" onclick = "c1()" type = "button"></button>
