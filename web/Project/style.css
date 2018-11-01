@@ -2,6 +2,8 @@
 	position: absolute;
     left: 50px;
     top: 100px;
+    border-bottom: 3px solid black;
+	margin-right: 700px;
 }
 
 #b1{
