@@ -194,5 +194,14 @@
 
 #bar1{
 	border-bottom: 3px solid black;
-	margin-right: 600px;
+	margin-right: 700px;
+	position: absolute;
+	top: 110px;
+}
+
+#bar2{
+	border-bottom: 3px solid black;
+	margin-right: 700px;
+	position: absolute;
+	top: 160px;
 }
