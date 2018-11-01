@@ -8,6 +8,8 @@
 	<script src="bracket.js" type = "text/javascript"></script>
 
 	<p>Soda Tournament! Who will come out on top? You decide.</p>
+
+	<img id = "drawing" src="bracketDrawing.PNG" alt="Bracket">
 	<?php
 	require ("dbConnect.php");
 
@@ -46,8 +48,6 @@
 	echo "<button id = \"b15\" onclick = \"b15()\" type=\"button\">$entry[15]</button>";
 
 	?>
-
-	<img id = "drawing" src="bracketDrawing.PNG" alt="Bracket">
 
 	<button id = "c0" onclick = "c0()" type = "button"></button>
 	<button id = "c1" onclick = "c1()" type = "button"></button>

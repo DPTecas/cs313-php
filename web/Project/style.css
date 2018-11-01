@@ -1,12 +1,12 @@
 #b0{
 	position: absolute;
-    left: 50px;
-    top: 100px;
+    left: 120px;
+    top: 70px;
 }
 
 #b1{
 	position: absolute;
-    left: 50px;
+    left: 120px;
     top: 150px;
 }
 
@@ -193,6 +193,8 @@
 }
 
 #drawing{
-	
+	position: absolute;
+    top: 50px;
+    left: 0px;
 }
 
