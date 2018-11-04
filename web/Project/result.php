@@ -32,8 +32,9 @@
 	$stmt->execute();
 	$entries = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-
 	?>
+
+	<a href = "home.php">Return Home</a>
 
 </body>
 </html>
