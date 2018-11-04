@@ -25,17 +25,17 @@
 	$stmt->execute();
 	$tourney = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-//	$query3 = 'INSERT INTO entries (entry, tourney_id) VALUES (:entry, :id)';
-//	$stmt = $db->prepare($query3);
-//	$stmt->bindValue(':entry', $entry, PDO::PARAM_STR);
-//		$stmt->bindValue(':id', $tourney['id'], PDO::PARAM_INT);
-//		$stmt->execute();
-//		$recentEntry = $stmt->fetchAll(PDO::FETCH_ASSOC);
+	$query3 = 'INSERT INTO entries (entry, tourney_id) VALUES (:entry, :id)';
+	$stmt = $db->prepare($query3);
 
 	for ($i=1;$i<17;$i++) {
 		$entry = "e" . $i;
 		$entry = $_POST[$entry];
-		echo $tourney[0]['id'];
+
+		$stmt->bindValue(':entry', $entry, PDO::PARAM_STR);
+		$stmt->bindValue(':id', $tourney[0]['id'], PDO::PARAM_INT);
+		$stmt->execute();
+		$recentEntry = $stmt->fetchAll(PDO::FETCH_ASSOC);
 	}
 	?>
 
