@@ -29,6 +29,7 @@
 
 	for ($i=1;$i<17;$i++) {
 		$entry = "e" . $i;
+		echo $entry;
 		$entry = $_POST[$entry];
 		
 		$stmt = $db->prepare($query3);
