@@ -13,13 +13,14 @@
 	$db = get_db();
 	$title = "'" . $_POST['title'] . "'";
 
-	$query = 'INSERT INTO tourneys (tname) VALUES :title';
+	$query = 'INSERT INTO tourneys(tname) VALUES (:title)';
 	$stmt = $db->prepare($query);
 	$stmt->bindValue(':title', $title, PDO::PARAM_STR);
 	$stmt->execute();
 
-	$query = 'SELECT * FROM tourneys';
+	$query = 'SELECT * FROM tourneys WHERE tname = :title';
 	$stmt = $db->prepare($query);
+	$stmt->bindValue(':title', $title, PDO::PARAM_STR);
 	$stmt->execute();
 	$tourney = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
@@ -27,7 +28,7 @@
 		$entry = "e" . $i;
 		$entry = "'" . $_POST[$entry] . "'";
 
-		$query = 'INSERT INTO entries (entry, tourney_id) VALUES :entry, :id';
+		$query = 'INSERT INTO entries (entry, tourney_id) VALUES (:entry, :id)';
 		$stmt = $db->prepare($query);
 		$stmt->bindValue(':entry', $entry, PDO::PARAM_STR);
 		$stmt->bindValue(':id', $tourney['id'], PDO::PARAM_INT);
