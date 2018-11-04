@@ -11,19 +11,19 @@
 	require ("dbConnect.php");
 
 	$db = get_db();
-	$title = "'" . $_POST['title'] . "'";
+	$title = $_POST['title'];
 
 	$query = 'INSERT INTO tourneys(tname) VALUES (:title)';
 	$stmt = $db->prepare($query);
 	$stmt->bindValue(':title', $title, PDO::PARAM_STR);
 	$stmt->execute();
 	$tname = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
+/*
 	$query = 'SELECT * FROM tourneys WHERE tname = :title';
 	$stmt = $db->prepare($query);
 	$stmt->bindValue(':title', $tname['tname'], PDO::PARAM_STR);
 	$stmt->execute();
-	$tourney = $stmt->fetchAll(PDO::FETCH_ASSOC);
+	$tourney = $stmt->fetchAll(PDO::FETCH_ASSOC);*/
 /*
 	for ($i=1;$i<17;$i++) {
 		$entry = "e" . $i;
