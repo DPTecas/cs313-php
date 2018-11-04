@@ -30,7 +30,7 @@
 	for ($i=1;$i<17;$i++) {
 		$entry = "e" . $i;
 		echo $entry;
-		$entry = $_POST[$entry];
+		//$entry = $_POST[$entry];
 		
 		$stmt = $db->prepare($query3);
 		$stmt->bindValue(':entry', $entry, PDO::PARAM_STR);
