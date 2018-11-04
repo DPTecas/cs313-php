@@ -21,13 +21,15 @@
 	{
 		$id = $row['id'];
 		$tourney = $row['tname'];
-		echo "<a href=\"https://quiet-temple-53214.herokuapp.com/Project/bracket.php?id=$id\">$tourney</a><br>";
+		echo "<div align=\"center\"><a href=\"https://quiet-temple-53214.herokuapp.com/Project/bracket.php?id=$id\">$tourney</a></div><br>";
 	}
 
 
 	?>
 	<br><br><br>
+	<div align="center">
 	<a href = "bracketMaker.php">Make your own bracket!</a>
+</div>
 
 
 </body>
