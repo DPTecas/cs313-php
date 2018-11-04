@@ -21,7 +21,7 @@
 
 	$query = 'SELECT * FROM tourneys WHERE tname = :title';
 	$stmt = $db->prepare($query);
-	$stmt->bindValue(':title', $tname['tname'], PDO::PARAM_STR);
+	$stmt->bindValue(':title', $title, PDO::PARAM_STR);
 	$stmt->execute();
 	$tourney = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
