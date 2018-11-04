@@ -19,13 +19,11 @@
 	$stmt->execute();
 	$tname = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-/*	$query2 = 'SELECT id FROM tourneys WHERE tname = :title';
+	$query2 = 'SELECT id FROM tourneys WHERE tname = :title';
 	$stmt = $db->prepare($query2);
 	$stmt->bindValue(':title', $title, PDO::PARAM_STR);
 	$stmt->execute();
-	$tourney = $stmt->fetchAll(PDO::FETCH_ASSOC);*/
-
-	$last_insert_id = $objPDO->lastInsertId("tourneys_id_seq");
+	$tourney = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 //	$query3 = 'INSERT INTO entries (entry, tourney_id) VALUES (:entry, :id)';
 //	$stmt = $db->prepare($query3);
@@ -37,7 +35,7 @@
 	for ($i=1;$i<17;$i++) {
 		$entry = "e" . $i;
 		$entry = $_POST[$entry];
-		$last_insert_id;
+		$tourney;
 	}
 	?>
 
