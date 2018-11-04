@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Home Tournament Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<h1>Choose a bracket to fill out</h1><br>
