@@ -17,13 +17,14 @@
 	$stmt = $db->prepare($query);
 	$stmt->bindValue(':title', $title, PDO::PARAM_STR);
 	$stmt->execute();
+	$tname = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 	$query = 'SELECT * FROM tourneys WHERE tname = :title';
 	$stmt = $db->prepare($query);
-	$stmt->bindValue(':title', $title, PDO::PARAM_STR);
+	$stmt->bindValue(':title', $tname['tname'], PDO::PARAM_STR);
 	$stmt->execute();
 	$tourney = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
+/*
 	for ($i=1;$i<17;$i++) {
 		$entry = "e" . $i;
 		$entry = "'" . $_POST[$entry] . "'";
@@ -33,7 +34,7 @@
 		$stmt->bindValue(':entry', $entry, PDO::PARAM_STR);
 		$stmt->bindValue(':id', $tourney['id'], PDO::PARAM_INT);
 		$stmt->execute();
-	}
+	}*/
 	?>
 
 </body>
