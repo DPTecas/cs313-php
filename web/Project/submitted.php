@@ -35,7 +35,7 @@
 	for ($i=1;$i<17;$i++) {
 		$entry = "e" . $i;
 		$entry = $_POST[$entry];
-		echo $entry;
+		$tourney['id'];
 	}
 	?>
 
