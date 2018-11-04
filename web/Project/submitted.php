@@ -37,7 +37,7 @@
 	for ($i=1;$i<17;$i++) {
 		$entry = "e" . $i;
 		$entry = $_POST[$entry];
-		$last_insert_id['id'];
+		$last_insert_id;
 	}
 	?>
 
