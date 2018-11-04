@@ -39,5 +39,7 @@
 	}
 	?>
 
+	<a href = "home.php">Return Home</a>
+
 </body>
 </html>

@@ -4,7 +4,7 @@
 	<title>Home Tournament Page</title>
 </head>
 <body>
-	<p>Choose a bracket to fill out</p><br>
+	<h1>Choose a bracket to fill out</h1><br>
 
 	<?php
 	require ("dbConnect.php");
@@ -25,7 +25,7 @@
 
 
 	?>
-
+	<br><br><br>
 	<a href = "bracketMaker.php">Make your own bracket!</a>
 
 
