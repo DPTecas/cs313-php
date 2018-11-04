@@ -26,6 +26,8 @@
 
 	?>
 
+	<a href = "bracketMaker.php">Make your own bracket!</a>
+
 
 </body>
 </html>
