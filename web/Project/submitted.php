@@ -25,7 +25,7 @@
 	$stmt->execute();
 	$tourney = $stmt->fetchAll(PDO::FETCH_ASSOC);*/
 
-	$last_insert_id = $objPDO->lastInsertId("$tourneys_id_seq");
+	$last_insert_id = $objPDO->lastInsertId("tourneys_id_seq");
 
 //	$query3 = 'INSERT INTO entries (entry, tourney_id) VALUES (:entry, :id)';
 //	$stmt = $db->prepare($query3);
