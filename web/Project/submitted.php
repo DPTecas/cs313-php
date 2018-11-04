@@ -13,7 +13,7 @@
 	$db = get_db();
 	$title = "'" . $_POST['title'] . "'";
 
-	$query = 'INSERT INTO tourneys (tName) VALUES :title';
+	$query = 'INSERT INTO tourneys (tname) VALUES :title';
 	$stmt = $db->prepare($query);
 	$stmt->bindValue(':title', $title, PDO::PARAM_STR);
 	$stmt->execute();
