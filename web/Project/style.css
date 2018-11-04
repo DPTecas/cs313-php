@@ -199,9 +199,9 @@
 }
 
 h1{
-	text-align:center;
+	float:center;
 }
 
 a{
-	text-align:center;
+	float:center;
 }
